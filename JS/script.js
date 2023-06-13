@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const balanceElement = document.getElementById("balance");
   
     let balance = 0;
-    
   
     transactionForm.addEventListener("submit", function(event) {
       event.preventDefault();
