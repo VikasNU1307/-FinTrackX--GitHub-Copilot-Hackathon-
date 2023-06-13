@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function clearForm() {
       descriptionInput.value = "";
       amountInput.value = "";
+        
       dateInput.value = "";
     }
   });
