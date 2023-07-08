@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const dateInput = document.getElementById("dateInput");
     const transactionType = document.getElementById("transactionType");
     const transactionList = document.getElementById("transactionList");
-    const balanceElement = document.getElementById("balance");
+    const balanceElement = document.getElementById("balance"); 
   
     let balance = 0; 
   
