@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       const description = descriptionInput.value;
       const amount = parseFloat(amountInput.value);
-      const date = new Date(dateInput.value);
+      const date = new Date(dateInput.value); 
       const type = transactionType.value;
   
       const transaction = document.createElement("li");
