@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const descriptionInput = document.getElementById("descriptionInput");
     const amountInput = document.getElementById("amountInput");
     const dateInput = document.getElementById("dateInput");
-    const transactionType = document.getElementById("transactionType");
+    const transactionType = document.getElementById("transactionType"); 
     const transactionList = document.getElementById("transactionList"); 
     const balanceElement = document.getElementById("balance"); 
   
