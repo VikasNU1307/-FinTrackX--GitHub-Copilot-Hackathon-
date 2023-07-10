@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const transactionList = document.getElementById("transactionList"); 
     const balanceElement = document.getElementById("balance"); 
   
-    let balance = 0; 
+    let balance = 0;  
   
     transactionForm.addEventListener("submit", function(event) {
       event.preventDefault();
